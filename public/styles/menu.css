@@ -6,7 +6,7 @@
     span {
         visibility: visible;
     }
-    
+
     input {
         visibility: visible;
     }
@@ -16,7 +16,7 @@
         display: block;
         position: relative;
         top: 200px;
-        left: 150rem;
+        left: 5rem;
         
         z-index: 1;
         
@@ -41,10 +41,9 @@
         width: 40px;
         height: 32px;
         position: absolute;
-        bottom: 15rem;
-        left: 30rem;
+        bottom: 17rem;
+        left: 25rem;
 
-        
         cursor: pointer;
         
         opacity: 0; /* hide this */
@@ -62,8 +61,8 @@
         height: 4px;
         margin-bottom: 5px;
         position: relative;
-        bottom: 15rem;
-        left: 30rem;
+        bottom: 18rem;
+        left: 25rem;
         background: #000;
         border-radius: 3px;
         
@@ -114,12 +113,12 @@
      * at the top left of the screen
      */
     #menu {
-        background-color: #ededed;
-        width: 25rem;
-    
+        background-color: #01376cd0;
+        width: 20rem;
+        box-shadow: 3px 3px 3px black;
         position: fixed;
-        top: 15rem;
-        right: -50rem;
+        top: 5rem;
+        left: 100%;
         transition: 850ms;
     
         overflow-y: auto;
@@ -139,7 +138,7 @@
      * And let's slide it in from the left
      */
     #menuToggle input:checked ~ ul {
-        right: 0;
-        transition: 350ms;
+        left: 22rem;
+        transition: 550ms;
     }
 }

@@ -14,6 +14,7 @@
     box-shadow: 1px 1px 2px black;
 }
 
+
 .section-text {
     text-align: center;
     margin-left: 30rem;
@@ -47,14 +48,32 @@ p {
     }
 }
 
-.splide__slide__image {
-	width: 20%;
-    height: auto;
+@media only screen and (max-width: 700px) {
+    .image-section {
+        visibility: hidden;
+    }
+
+    .section-text {
+        margin-left: -4rem;
+        margin-bottom: 50rem;
+    }
+
+    #image-slider {
+        width: 90%;
+        left: 2rem;
+        top: 38rem;
+    }
+    footer{
+        margin-top: 8rem;
+        text-align: center;
+        font-size: 1.7rem;
+    }
 }
 
 .social-medias {
     width: 2%;
     height: 2%;
+
 }
 
 .social-medias-container {
