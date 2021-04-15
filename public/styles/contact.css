@@ -63,3 +63,22 @@ img {
     border-radius: 1rem;
 }
 
+footer {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+@media only screen and (max-width: 900px) {
+    section {
+        width: 70rem;
+        margin-left: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    section {
+        width: 40rem;
+        margin-left: 1rem;
+    }
+}

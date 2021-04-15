@@ -333,7 +333,7 @@
         height: 32px;
         position: absolute;
         bottom: 17rem;
-        left: 20rem;
+        left: 25rem;
 
         cursor: pointer;
         
@@ -353,7 +353,7 @@
         margin-bottom: 5px;
         position: relative;
         bottom: 18rem;
-        left: 20rem;
+        left: 25rem;
         background: #000;
         border-radius: 3px;
         
@@ -429,7 +429,7 @@
      * And let's slide it in from the left
      */
     #menuToggle input:checked ~ ul {
-        left: 18rem;
+        left: 22rem;
         transition: 550ms;
     }
 }
