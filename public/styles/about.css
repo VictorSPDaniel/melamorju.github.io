@@ -10,6 +10,7 @@ h2 {
     text-align: center;
 }
 .text {
+    border-radius: 1rem;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     margin-left: 5rem;
